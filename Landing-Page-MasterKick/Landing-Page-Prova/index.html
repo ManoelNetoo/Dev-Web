@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasterKick</title>
+
+    <link rel="shortcut icon" href="./src/img/LogoMasterKickSobre.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+</head>
+
+<body>
+
+    <header style="background-image: url(./src/img/HomepageNova.png);">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="./src/img/LogoMasterKick.png" alt="Logo MasterKick">
+                </a>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#meuMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="meuMenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mb-3">
+                            <a class="nav-link text-light fw-bold" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mb-3">
+                            <a class="nav-link text-light fw-bold" href="#row-cursos">Modalidades</a>
+                        </li>
+                        <li class="nav-item mb-3">
+                            <a class="nav-link text-light fw-bold" href="#row-sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item mb-3">
+                            <a class="nav-link text-light fw-bold" href="#row-academias">Academias</a>
+                        </li>
+                        <li class="nav-item mb-3">
+                            <a class="nav-link text-light fw-bold" href="#row-contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+        <div class="container">
+            <div class="titulo">
+                Venha treinar conosco<br>Matricule-se agora!<br>
+                <button type="button" class="btn mt-3 ps-3 pe-3 rounded-pill fw-bold text-white">Inscrever-se</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="row text-white py-5" id="row-cursos">
+            <div class="container text-center">
+                <div class="d-flex justify-content-center">
+                    <div class="col-md-8">
+                        <h1 class="fw-bold">Nossas modalidades</h1>
+                        <h5>Nós trabalhamos com três modalidades em nossas academias, você pode optar por praticá-las
+                            apenas como um passatempo, para melhorar seu condicionamento físico e intelectual ou
+                            praticá-las por fins competitivos, caso queira competir em torneios.</h5>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="./src/img/Taekwondo 2.png" class="rounded-circle" alt="Atleta de Taekwondo">
+                            <div class="card-body text-white">
+                                <h4 class="fw-bold mt-4">TAEKWONDO</h4>
+                                <button class="text-white rounded-pill ps-3 pe-3 mt-2 fw-bold" data-bs-toggle="collapse"
+                                    data-bs-target="#taekwondo">Ler sobre</button>
+                                <p id="taekwondo" class="collapse mt-2 rounded-1">O Taekwondo é uma arte marcial de
+                                    origem Sul-Coreana criada pelo general Choi Hong-hi na década de 1950 que utiliza
+                                    movimentos de ataque e defesa com os pés e as mãos. É uma arte bastante filosófica e
+                                    traz como lema o poder da mente sobre o corpo, o nome Taekwondo significa "Caminho
+                                    dos pés e das mãos através da mente", e também traz influências de diversas artes
+                                    marciais tradicionais Coreanas. Entre as capacidades físicas trabalhadas estão a
+                                    força, o equilíbrio, a potência e a flexibilidade.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./src/img/Muay-thai 1.png" class="rounded-circle" alt="Atleta de Muay thai">
+                            <div class="card-body text-white">
+                                <h4 class="fw-bold mt-4">MUAY THAI</h4>
+                                <button class="text-white rounded-pill ps-3 pe-3 mt-2 fw-bold" data-bs-toggle="collapse"
+                                    data-bs-target="#muay-thai">Ler sobre</button>
+                                <p id="muay-thai" class="collapse mt-2 rounded-1">Conhecido como boxe tailandês, o Muay
+                                    Thai é uma das artes marciais menos pacíficas e voltada mais para a luta mesmo. A
+                                    arte mistura socos, chutes, cotoveladas, joelhadas e vários outros golpes em um
+                                    ritmo acelerado, com o objetivo de dominar o adversário. Com tanto agito, o Muay
+                                    Thai é muito efetivo no combate direto e é uma das melhores artes marciais em
+                                    academia para o condicionamento físico.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="./src/img/Judo 2.png" class="rounded-circle" alt="Atletas de Judo">
+                            <div class="card-body text-white">
+                                <h4 class="fw-bold mt-4">JUDO</h4>
+                                <button class="text-white rounded-pill ps-3 pe-3 mt-2 fw-bold" data-bs-toggle="collapse"
+                                    data-bs-target="#judo">Ler sobre</button>
+                                <p id="judo" class="collapse mt-2 rounded-1">O Judo é uma arte marcial criada no Japão
+                                    pelo mestre Jigoro Kano por volta de 1880 e considerado um esporte olímpico de
+                                    combate desde 1964. No mesmo ano, ele criou o Instituto Kodokan que ensinava as
+                                    técnicas e a filosofia associada a arte, que nas palavras de seu criador: "Arte em
+                                    que se usa ao máximo a força física e espiritual". Na prática de artes marciais em
+                                    academia, o Judo é uma das mais procuradas para defesa pessoal, e tem como objetivo
+                                    melhorar a coordenação motora, a concentração, a autoconfiança, além de fortalecer o
+                                    físico, o espírito e a mente.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row py-5" style="background-image: url('./src/img/TemplateMasterKick2.png');" id="row-sobre">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 text-center">
+                        <img src="./src/img/LogoMasterKickSobre.png" alt="">
+                    </div>
+                    <div class="col-md-7 mt-2">
+                        <h1 class="titulo-cor fw-bold mb-3">Sobre nós</h1>
+                        <p class="fw-semibold">A academia MasterKick foi fundada em Recife-PE no ano de 2010 por Manoel
+                            Neto. Inicialmente a academia realizava apenas treinos de Taekwondo e nos primeiros anos a
+                            academia enfrentou desafios, com um número limitado de alunos e recursos escassos. No
+                            entanto, com muita dedicação e expertise, a oferta da academia se expandiu para incluir
+                            outros sistemas de combate, como Muay thai e Judo, além de incluir treinos de musculação,
+                            assim a academia passou a atrair a atenção de indivíduos em busca de um local onde pudessem
+                            aprender e crescer nas artes marciais.</p>
+                        <p class="fw-semibold">A reputação da academia começou a se espalhar, Em 2014, foi aberta uma
+                            filial em Olinda, e em 2018 uma segunda também em Olinda, gradualmente, ela se tornou um
+                            centro de referência para aqueles que desejavam se envolver nas disciplinas marciais. Nos
+                            anos seguintes, a academia se estabeleceu como uma instituição de renome, ganhando respeito
+                            da comunidade marcial e acumulando uma lista de alunos talentoso que alcançaram
+                            reconhecimento em competições regionais e nacionais. Atualmente, a academia MasterKick
+                            continua a prosperar, com 9 academias instaladas pelo Brasil e uma comunidade vibrante de
+                            praticantes dedicados.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row" id="row-dados">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col">
+                        <div class="mx-auto circulo d-flex justify-content-center align-items-center">
+                            <h1 class="fw-bold">9</h1>
+                        </div>
+                        <h5 class="titulo-cor fw-bold mt-3 text-white">ACADEMIAS</h5>
+                    </div>
+                    <div class="col">
+                        <div class="mx-auto circulo d-flex justify-content-center align-items-center">
+                            <h1 class="fw-bold">81</h1>
+                        </div>
+                        <h5 class="titulo-cor fw-bold mt-3 text-white">TREINADORES</h5>
+                    </div>
+                    <div class="col">
+                        <div class="mx-auto circulo d-flex justify-content-center align-items-center">
+                            <h1 class="fw-bold">38</h1>
+                        </div>
+                        <h5 class="titulo-cor fw-bold mt-3 text-white">PREMIOS</h5>
+                    </div>
+                    <div class="col">
+                        <div class="mx-auto circulo d-flex justify-content-center align-items-center">
+                            <h1 class="fw-bold">867</h1>
+                        </div>
+                        <h5 class="titulo-cor fw-bold mt-3 text-white">ALUNOS</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="background-image: url('./src/img/Template.png');" id="row-academias">
+            <div class="container">
+                <div class="row flex-row-reverse">
+                    <div class="col-md-5 text-center">
+                        <img src="./src/img/LogoMasterKickSobre.png" class="mt-5 rounded-circle" alt="">
+                    </div>
+                    <div class="col-md-7 mt-5">
+                        <h1 class="titulo-cor fw-bold mb-3">Nossas academias</h1>
+                        <p class="fw-semibold">As nossas academia estão situadas em locais estratégicos e privilégiados
+                            das cidades, com uma localização de fácil acesso, e próximas ao centro urbano das cidades.
+                            Com uma fachada imponente e distintiva, as nossas academias são facilmente reconhecidas
+                            pelos entusiastas das artes marciais, tornando-se um ponto de referência para aqueles que
+                            desejam desenvolver suas habilidades e aprimorar sua disciplina física e mental. Nossas
+                            academias possuem uma estrutura moderna e bem equipada para atender às necessidades dos
+                            praticantes de artes marciais. Os prédios são espaçosos, com múltiplos andares e uma área
+                            total de 1500 metros quadrados.</p>
+                        <p class="fw-semibold">As academias foram projetadas com cuidado para proporcionar um ambiente
+                            seguro, inspirador e propício ao aprendizado e ao treinamento. Ao entrar nas academias, os
+                            visitantes são recebidos por uma recepção aconchegante, onde uma equipe de atendimento
+                            simpática e prestativa está pronta para fornecer informações e orientação. Todas as nossas
+                            academias são equipadas com Elevadores para que nossos alunos e visitantes possam transitar
+                            facilmente e com rapidez entre os andares. Há também um espaço de espera confortável para os
+                            alunos, onde podem interagir, trocar experiências e se preparar para as aulas. Nossas
+                            academias também contam com um grande pátio de estacionamento, totalmente coberto e de fácil
+                            acesso para nossos alunos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="background-image: url('./src/img/ArteMarcialBackground3.png');" id="row-frase">
+            <div class="container text-center">
+                <h3 class="text-white">"Coragem é a mais importante de todas as virtudes, porque sem ela nós não podemos
+                    praticar nenhuma outra virtude com consistência."</h3>
+                <h3 class="text-white mt-4 fw-bold">- Maya Angelou</h3>
+            </div>
+        </div>
+        <div class="row" style="background-image: url('./src/img/BackgroundContato3.png');" id="row-contato">
+            <div class="container text-center">
+                <div class="col-md-6 mx-auto">
+                    <h1 class="titulo-cor fw-bold">Contato</h1>
+                    <h5 class="mt-4">Para fazer a sua inscrição, vá até uma de nossas academias mais próximas ou nos
+                        forneça algumas informações básicas nos campos abaixo, sendo elas, seu nome, seu email e sua
+                        data de nascimento, assim nós entraremos em contato com o Email informado e forneceremos todo o
+                        suporte possível e as informações necessárias para efetuar a sua matrícula.</h5>
+                </div>
+            </div>
+
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                    <label for="validationCustom01" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Digite seu nome"
+                        required aria-label="Nome">
+                    <div class="valid-feedback">Parece ótimo!</div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">Sobrenome</label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Digite seu sobrenome"
+                        required aria-label="Sobrenome">
+                    <div class="valid-feedback">Parece ótimo!</div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationCustomUsername" class="form-label">Nome de Usuário</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername"
+                            aria-describedby="inputGroupPrepend" placeholder="Escolha um nome de usuário" required>
+                        <div class="invalid-feedback">Por favor, escolha um nome de usuário.</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">Cidade</label>
+                    <input type="text" class="form-control border-danger" id="validationCustom03"
+                        placeholder="Digite sua cidade" required aria-label="Cidade">
+                    <div class="invalid-feedback">Por favor, informe uma cidade válida.</div>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom04" class="form-label">Estado</label>
+                    <select class="form-select" id="validationCustom04" required aria-label="Estado">
+                        <option selected disabled value="">Escolha...</option>
+                        <option>São Paulo</option>
+                        <option>Rio de Janeiro</option>
+                        <option>Minas Gerais</option>
+                        <option>Bahia</option>
+                    </select>
+                    <div class="invalid-feedback">Por favor, selecione um estado válido.</div>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom05" class="form-label">CEP</label>
+                    <input type="text" class="form-control" id="validationCustom05" placeholder="Digite seu CEP"
+                        required aria-label="CEP">
+                    <div class="invalid-feedback">Por favor, informe um CEP válido.</div>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required
+                            aria-label="Aceitação de Termos">
+                        <label class="form-check-label" for="invalidCheck">
+                            Concordo com os <a href="#">termos e condições</a>
+                        </label>
+                        <div class="invalid-feedback">Você deve concordar antes de enviar.</div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-success" type="submit">Enviar Formulário</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+
+        <div class="container text-center" id="redes">
+            <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook pe-2"></a>
+            <a href="https://twitter.com/" target="_blank" class="fa fa-twitter pe-2"></a>
+            <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram mr-12"></a>
+            <p class="text-light mt-2">© Copyright 2023 | Academias MasterKick</p>
+        </div>
+
+        <div class="row text-white">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-4 px-5">
+                        <h4 class="fw-bold mb-4">SOBRE</h4>
+                        <p>A MasterKick é uma academia focada na prática de artes marciais, mas que também fornece
+                            outros serviços diversos.</p>
+                    </div>
+                    <div class="col-lg-4 px-5">
+                        <h4 class="fw-bold mb-4">CREDITOS</h4>
+                        <a href="https://br.freepik.com" target="_blank">Freepik</a><br>
+                        <a href="https://dribbble.com" target="_blank">Dribbble</a><br>
+                        <a href="https://br.pinterest.com" target="_blank">Pinterest</a><br>
+                        <a href="https://smashinglogo.com" target="_blank">Smashing Logo</a>
+                    </div>
+                    <div class="col-lg-4 px-5">
+                        <h4 class="fw-bold mb-4">CONTATOS</h4>
+                        <div class="d-flex">
+                            <span class="material-symbols-outlined">
+                                call
+                            </span>
+                            <p class="ms-3">(81) 55555-5555</p>
+                        </div>
+                        <div class="d-flex">
+                            <span class="material-symbols-outlined">
+                                home
+                            </span>
+                            <p class="ms-3">Av. Lorem ipsum Nº 777</p>
+                        </div>
+                        <div class="d-flex">
+                            <span class="material-symbols-outlined">
+                                alternate_email
+                            </span>
+                            <p class="ms-3">Contatomasterkick@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./src/js/script.js"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
